@@ -2,7 +2,7 @@
 .controller.ds4 {
     background: url(Black_SkinNo_Buttons.png);
     background-repeat: no-repeat
-    background-position: 2px 11px; /* Pushes background 8px right, 18px down */
+    background-position: 2px 9px; /* Pushes background 8px right, 18px down */
     height: 725px;
     width: 1200px;
     /*    margin-left: -403px;
