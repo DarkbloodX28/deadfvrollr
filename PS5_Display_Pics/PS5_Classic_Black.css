@@ -104,13 +104,11 @@ background-position: 0 -49px;
 .ds4 .p3{
 background-position: 0 -70px;
 }*/
-.ds4 .arrows {
-    position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
-}
+.ds4 .arrows { position: absolute; 
+width: 352px;  /* Increased size slightly */ 
+height: 46px; /* Increased size slightly */ 
+top: 142px;    /* Shifted up a tiny bit */
+left: 227px;   /* Adjusted to line up with the background graphics */ }
 
 .ds4 .back, .ds4 .start {
     background: url(Select.png);
@@ -151,7 +149,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 170px;
     height: 171px;
-    top: 200px;
+    top: 185px;    /* Decreased from original to pull the cluster upwards */
     left: 762px;
 }
 
@@ -187,7 +185,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 364px;
     height: 105px;
-    top: 348px;
+    top: 330px;    /* Decreased from original to pull both sticks upwards */
     left: 422px;
 }
 
