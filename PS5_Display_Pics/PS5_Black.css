@@ -221,10 +221,10 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 260px;  /* Scaled up to fit the 2.5x buttons */
-    height: 260px; /* Scaled up to fit the 2.5x buttons */
-    top: 200px;    /* Shifted up 5 more pixels from 205px */
-    left: 220px;   /* Adjusted slightly left to center the massive frame */
+    width: 200px;  /* Increased wrapper size */
+    height: 200px; /* Increased wrapper size */
+    top: 205px;    /* Moved up slightly to center it */
+    left: 250px;   /* Adjusted to align horizontally */ /* Adjusted slightly left to center the massive frame */
 }
 
 .ds4 .face {
