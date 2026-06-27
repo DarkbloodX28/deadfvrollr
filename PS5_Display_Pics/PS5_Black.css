@@ -221,10 +221,10 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 200px;  /* Increased wrapper size */
-    height: 200px; /* Increased wrapper size */
-    top: 205px;    /* Moved up slightly to center it */
-    left: 250px;   /* Adjusted to align horizontally */
+    width: 260px;  /* Scaled up to fit the 2.5x buttons */
+    height: 260px; /* Scaled up to fit the 2.5x buttons */
+    top: 200px;    /* Shifted up 5 more pixels from 205px */
+    left: 220px;   /* Adjusted slightly left to center the massive frame */
 }
 
 .ds4 .face {
@@ -233,35 +233,35 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 54px;   /* Increased width */
-    height: 72px;  /* Increased height */
+    width: 90px;   /* 2.5x scaled width */
+    height: 130px; /* 2.5x scaled height */
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 72px;   /* Increased width */
-    height: 54px;  /* Increased height */
+    width: 130px;  /* 2.5x scaled width */
+    height: 90px;  /* 2.5x scaled height */
 }
 
 .ds4 .face.up {
-    left: 73px;    /* Adjusted to center the wider button */
+    left: 85px;    /* Centers the 90px wide button in the 260px frame */
     top: 0;
     background-position: -37px 0px;
 }
 
 .ds4 .face.down {
-    left: 73px;    /* Adjusted to center the wider button */
+    left: 85px;    /* Centers the 90px wide button in the 260px frame */
     bottom: 0;
     background-position: 0px 0;
 }
 
 .ds4 .face.left {
-    top: 73px;     /* Adjusted to center the taller button */
+    top: 85px;     /* Centers the 90px tall button in the 260px frame */
     left: 0;
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 73px;     /* Adjusted to center the taller button */
+    top: 85px;     /* Centers the 90px tall button in the 260px frame */
     right: 0px;
     background-position: 52px 0;
 }
