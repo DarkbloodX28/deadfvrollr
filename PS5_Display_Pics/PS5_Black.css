@@ -220,13 +220,13 @@ background-position: 0 -70px;
 }
 
 .ds4 .dpad {
-    position: absolute;
+  position: absolute;
     width: 125px;
     height: 126px;
-    top: 215px;                 /* Shifted up exactly 5px from 220px */
-    left: 286px;
-    transform: scale(2.5);      /* Increases the entire D-pad size by exactly 2.5x */
-    transform-origin: top left; /* Keeps the scaling anchored properly for easy positioning */
+    top: -15px;                 /* Shifted significantly UP to counteract the 2.5x zoom */
+    left: 140px;                /* Shifted significantly LEFT to align over the layout slots */
+    transform: scale(2.5);      
+    transform-origin: top left;
 }
 
 .ds4 .face {
