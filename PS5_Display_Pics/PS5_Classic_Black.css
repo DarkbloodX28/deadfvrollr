@@ -224,13 +224,13 @@ position: absolute;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 74px;
-    height: 106px;
+    width: 36px;
+    height: 52px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 104px;
-    height: 80px;
+    width: 52px;
+    height: 36px;
 }
 
 .ds4 .face.up {
