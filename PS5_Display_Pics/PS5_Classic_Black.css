@@ -105,11 +105,12 @@ background-position: 0 -49px;
 background-position: 0 -70px;
 }*/
 .ds4 .arrows { position: absolute; 
-width: 352px;  /* Increased size slightly */ 
-height: 46px; /* Increased size slightly */ 
-top: 142px;    /* Shifted up a tiny bit */
-left: 227px;   /* Adjusted to line up with the background graphics */ }
-
+position: absolute;
+    width: 155px;  /* Bumps the overall size up more */
+    height: 156px; /* Bumps the overall size up more */
+    top: 205px;    /* Pulls it up a tiny bit to compensate for the bigger size */
+    left: 270px;   /* Nudges it slightly left to center the bigger frame */
+}
 .ds4 .back, .ds4 .start {
     background: url(Select.png);
     width: 26px;
