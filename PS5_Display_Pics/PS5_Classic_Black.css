@@ -166,7 +166,7 @@ position: absolute;
 }
 
 .ds4 .b {
-    background-position: -54px 0;
+    background-position: -53px 0;
     top: 57px;
     right: -3px;
 }
@@ -217,8 +217,8 @@ position: absolute;
 
 .ds4 .dpad {
     position: absolute;
-    width: 125px;
-    height: 126px;
+    width: 500px;
+    height: 500px;
     top: 220px;
     left: 286px;
 }
