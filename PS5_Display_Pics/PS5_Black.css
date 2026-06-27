@@ -221,10 +221,10 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 125px;
-    height: 126px;
-    top: 220px;
-    left: 286px;
+    width: 200px;  /* Increased wrapper size */
+    height: 200px; /* Increased wrapper size */
+    top: 205px;    /* Moved up slightly to center it */
+    left: 250px;   /* Adjusted to align horizontally */
 }
 
 .ds4 .face {
@@ -233,35 +233,35 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 37px;
-    height: 52px;
+    width: 54px;   /* Increased width */
+    height: 72px;  /* Increased height */
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 52px;
-    height: 40px;
+    width: 72px;   /* Increased width */
+    height: 54px;  /* Increased height */
 }
 
 .ds4 .face.up {
-    left: 44px;
+    left: 73px;    /* Adjusted to center the wider button */
     top: 0;
     background-position: -37px 0px;
 }
 
 .ds4 .face.down {
-    left: 44px;
+    left: 73px;    /* Adjusted to center the wider button */
     bottom: 0;
     background-position: 0px 0;
 }
 
 .ds4 .face.left {
-    top: 45px;
+    top: 73px;     /* Adjusted to center the taller button */
     left: 0;
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
+    top: 73px;     /* Adjusted to center the taller button */
     right: 0px;
     background-position: 52px 0;
 }
