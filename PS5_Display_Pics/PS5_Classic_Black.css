@@ -106,8 +106,8 @@ background-position: 0 -70px;
 }*/
 .ds4 .arrows { position: absolute; 
 position: absolute;
-    width: 155px;  /* Bumps the overall size up more */
-    height: 156px; /* Bumps the overall size up more */
+    width: 250px;  /* Bumps the overall size up more */
+    height: 252px; /* Bumps the overall size up more */
     top: 205px;    /* Pulls it up a tiny bit to compensate for the bigger size */
     left: 270px;   /* Nudges it slightly left to center the bigger frame */
 }
