@@ -233,35 +233,35 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 54px;   /* Increased width */
-    height: 72px;  /* Increased height */
+    width: 36px;
+    height: 52px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 72px;   /* Increased width */
-    height: 54px;  /* Increased height */
+    width: 52px;
+    height: 36px;
 }
 
 .ds4 .face.up {
-    left: 73px;    /* Adjusted to center the wider button */
+    left: 44px;
     top: 0;
     background-position: -37px 0px;
 }
 
 .ds4 .face.down {
-    left: 73px;    /* Adjusted to center the wider button */
+    left: 44px;
     bottom: 0;
     background-position: 0px 0;
 }
 
 .ds4 .face.left {
-    top: 73px;     /* Adjusted to center the taller button */
+    top: 45px;
     left: 0;
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 73px;     /* Adjusted to center the taller button */
+    top: 45px;
     right: 0px;
     background-position: 52px 0;
 }
