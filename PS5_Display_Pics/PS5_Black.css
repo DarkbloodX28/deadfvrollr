@@ -225,7 +225,7 @@ background-position: 0 -70px;
     height: 126px;
     top: -15px;                 /* Shifted significantly UP to counteract the 2.5x zoom */
     left: 140px;                /* Shifted significantly LEFT to align over the layout slots */
-    transform: scale(1.5);      
+    transform: scale(1.2);      
     transform-origin: top left;
 }
 
