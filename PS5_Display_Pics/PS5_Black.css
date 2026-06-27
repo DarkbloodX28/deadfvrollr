@@ -151,6 +151,12 @@ background-position: 0 -70px;
     top: 185px;    /* Decreased from original to pull the cluster upwards */
     left: 765px;
 }
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(FaceButtonsB.png);
+}
 
 .ds4 .button.pressed {
     background-position-y: 55px;
