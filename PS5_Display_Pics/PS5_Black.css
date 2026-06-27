@@ -221,10 +221,10 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 200px;  /* Increased wrapper size */
-    height: 200px; /* Increased wrapper size */
-    top: 205px;    /* Moved up slightly to center it */
-    left: 250px;   /* Adjusted to align horizontally */
+    width: 125px;
+    height: 126px;
+    top: 220px;
+    left: 286px;
 }
 
 .ds4 .face {
