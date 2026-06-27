@@ -223,8 +223,10 @@ background-position: 0 -70px;
     position: absolute;
     width: 125px;
     height: 126px;
-    top: 220px;
+    top: 215px;                 /* Shifted up exactly 5px from 220px */
     left: 286px;
+    transform: scale(2.5);      /* Increases the entire D-pad size by exactly 2.5x */
+    transform-origin: top left; /* Keeps the scaling anchored properly for easy positioning */
 }
 
 .ds4 .face {
