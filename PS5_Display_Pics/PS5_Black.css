@@ -190,7 +190,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 364px;
     height: 105px;
-    top: 348px;
+    top: 330px;    /* Decreased from original to pull both sticks upwards */
     left: 422px;
 }
 
