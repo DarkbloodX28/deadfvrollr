@@ -160,13 +160,13 @@ position: absolute;
 }
 
 .ds4 .a {
-    background-position: 0 0;
+    background-position: -1 0;
     bottom: 0px;
     left: 58px;
 }
 
 .ds4 .b {
-    background-position: -56px 0;
+    background-position: -55px 0;
     top: 57px;
     right: -3px;
 }
@@ -219,7 +219,7 @@ position: absolute;
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 215px;
+    top: 220px;
     left: 286px;
 }
 
