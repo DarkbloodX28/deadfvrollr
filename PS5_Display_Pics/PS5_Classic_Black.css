@@ -217,52 +217,44 @@ position: absolute;
 
 .ds4 .dpad {
     position: absolute;
-    width: 300px;  /* Scaled down from 500px to keep the grid stable */
-    height: 300px; 
-    top: 150px;    /* Shifted up to fit your custom layout */
-    left: 210px;   /* Adjusted to line up horizontally */
+    width: 125px;
+    height: 126px;
+    top: 220px;
+    left: 286px;
 }
 
-/* This doubles the actual clickable size of the arrows */
 .ds4 .face.up, .ds4 .face.down {
-    width: 74px;   
-    height: 104px; 
+    width: 36px;
+    height: 52px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 104px;  
-    height: 80px;  
+    width: 52px;
+    height: 36px;
 }
 
-/* This fixes the glitch by scaling the background texture to match the 2x size */
-.ds4 .face {
-    background-size: 208px 208px;
-    position: absolute;
-}
-
-/* Coordinates to arrange them into a perfect cross inside the 300px box */
 .ds4 .face.up {
-    left: 113px;   
-    top: 10px;     
-    background-position: -74px 0px;
+    left: 44px;
+    top: 0;
+    background-position: -37px 0px;
 }
 
 .ds4 .face.down {
-    left: 113px;   
-    bottom: 10px;  
-    background-position: 0px 0px;
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
 }
 
 .ds4 .face.left {
-    top: 110px;    
-    left: 10px;    
-    background-position: 208px 0px;
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 110px;    
-    right: 10px;   
-    background-position: 104px 0px;
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
 }
 
 .ds4 .face.pressed {
