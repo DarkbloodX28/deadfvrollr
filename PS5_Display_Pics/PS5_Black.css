@@ -220,11 +220,11 @@ background-position: 0 -70px;
 }
 
 .ds4 .dpad {
-  position: absolute;
+ position: absolute;
     width: 125px;
     height: 126px;
-    top: -15px;                 
-    left: 286px;                
+    top: 220px;            
+    left: 286px;          
     transform: scale(1.2);
 }
 
