@@ -248,14 +248,16 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.left {
-    top: 45px;
-    left: -3px;            /* Nudged further LEFT into the template slot */
+    top: 43px;             /* Decreased from 45px to push it UP */
+    left: 1px;             /* Increased from -3px to shift it RIGHT */
+    width: 55px;           /* Expanded width slightly from 52px to fill the gap */
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
-    right: -3px;           /* Nudged further RIGHT into the template slot */
+    top: 43px;             /* Decreased from 45px to push it UP */
+    right: 1px;            /* Increased from -3px to shift it LEFT */
+    width: 55px;           /* Expanded width slightly from 52px to fill the gap */
     background-position: 52px 0;
 }
 
