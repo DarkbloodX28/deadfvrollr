@@ -221,6 +221,7 @@ position: absolute;
     height: 126px;
     top: 220px;
     left: 286px;
+    transform: scale(1.2); 
 }
 
 .ds4 .face.up, .ds4 .face.down {
