@@ -223,7 +223,7 @@ background-position: 0 -70px;
   position: absolute;
     width: 125px;
     height: 126px;
-    top: 30px;                 
+    top: -15px;                 
     left: 286px;                
     transform: scale(1.2);
 }
