@@ -223,8 +223,8 @@ background-position: 0 -70px;
   position: absolute;
     width: 125px;
     height: 126px;
-    top: -5px;                 /* Shifted significantly UP to counteract the 2.5x zoom */
-    left: 286px;                /* Shifted significantly LEFT to align over the layout slots */
+    top: 10px;                 
+    left: 286px;                
     transform: scale(1.2);
 }
 
