@@ -223,9 +223,9 @@ background-position: 0 -70px;
     position: absolute;
     width: 125px;
     height: 126px;
-    top: 213px;            
-    left: 288px;           /* Nudged left 2px to help center the overall cluster */
-    transform: scale(1.2);
+    top: 208px;            /* Nudged up slightly to center the new size */
+    left: 284px;           /* Nudged left slightly to center the new size */
+    transform: scale(1.3);
 }
 
 .ds4 .face {
@@ -248,19 +248,18 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.left {
-    top: 43px;             /* Decreased from 45px to push it UP */
-    left: 1px;             /* Increased from -3px to shift it RIGHT */
-    width: 55px;           /* Expanded width slightly from 52px to fill the gap */
+    top: 43px;             
+    left: -2px;            /* Shifted out to fit the slot nicely */
+    width: 52px;           /* Reset to standard size to prevent texture bleeding */
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 43px;             /* Decreased from 45px to push it UP */
-    right: 1px;            /* Increased from -3px to shift it LEFT */
-    width: 55px;           /* Expanded width slightly from 52px to fill the gap */
+    top: 43px;             
+    right: -2px;           /* Shifted out to fit the slot and clear the glitch */
+    width: 52px;           /* Reset to standard size to fix the black line glitch! */
     background-position: 52px 0;
 }
-
 .ds4 .face.pressed {
     background-position-y: 52px;
 }
