@@ -237,25 +237,25 @@ background-position: 0 -70px;
 
 .ds4 .face.up {
     left: 44px;
-    top: 3px;              /* Nudged DOWN into the slot */
+    top: -2px;             /* Nudged further UP into the template slot */
     background-position: -37px 0px;
 }
 
 .ds4 .face.down {
     left: 44px;
-    bottom: 3px;           /* Nudged UP into the slot */
+    bottom: -2px;          /* Nudged further DOWN into the template slot */
     background-position: 0px 0;
 }
 
 .ds4 .face.left {
     top: 45px;
-    left: 3px;             /* Nudged RIGHT into the slot */
+    left: -3px;            /* Nudged further LEFT into the template slot */
     background-position: 104px 0;
 }
 
 .ds4 .face.right {
     top: 45px;
-    right: 3px;            /* Nudged LEFT into the slot */
+    right: -3px;           /* Nudged further RIGHT into the template slot */
     background-position: 52px 0;
 }
 
